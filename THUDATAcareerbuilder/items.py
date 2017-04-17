@@ -11,6 +11,7 @@ import scrapy
 class ThudatacareerbuilderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+
     position_name = scrapy.Field()              # 职位名称
     position_category = scrapy.Field()          # 职位分类标签
     department = scrapy.Field()                 # 部门
