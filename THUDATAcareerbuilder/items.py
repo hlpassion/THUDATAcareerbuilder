@@ -24,6 +24,7 @@ class ThudatacareerbuilderItem(scrapy.Item):
     num_recruit = scrapy.Field()                # 招聘人数
     temptation = scrapy.Field()                 # 职位诱惑
     description = scrapy.Field()                # 职位描述
+    requirement = scrapy.Field()                # 职位需要
     company_name = scrapy.Field()               # 公司名称
     company_industry = scrapy.Field()           # 公司行业
     company_nature = scrapy.Field()             # 公司性质
